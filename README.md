@@ -6,7 +6,7 @@ This repository contains the configuration and logic for **UPower Design 2.0**, 
 
 ## 0. The Collaborative Workflow (Agent Team)
 
-This diagram illustrates the **UPower 2.0 "Concierge & Builder" Workflow**, emphasizing the interaction between Human (User/LA) and the Agent Squad.
+This diagram illustrates the **UPower Beta "Concierge & Builder" Workflow**, emphasizing the interaction between Human (User/LA) and the Agent Squad.
 
 ```mermaid
 graph TD
