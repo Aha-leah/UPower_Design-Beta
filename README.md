@@ -1,4 +1,4 @@
-# UPower Design 2.0 (Figma Feeder)
+# UPower Design Beta 🧑‍🎨
 
 **A Multi-Agent AI Team for Automated Design Engineering**
 
