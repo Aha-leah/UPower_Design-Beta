@@ -1,0 +1,15 @@
+# Project Manifest (项目铭牌)
+# 必填项 (Mandatory)
+Project Name (项目名称): 
+Project Type (项目类型 - e.g., Landing Page, SaaS Dashboard, Mobile App): 
+One-Liner Goal (一句话目标 - e.g., "让用户在30秒内完成首次配置"): 
+Target Audience (目标用户): 
+
+# 选填项 (Optional)
+Core Competitors (核心竞品): 
+# e.g., 
+# 1. https://novita.ai/ (参考它的 Hero Section 动效和“按需付费”的价格展示方式，但不要深色模式)
+# 2. https://www.autodl.com/ (重点参考它的“算力市场”列表筛选逻辑)
+
+Key Stakeholders (关键利益相关者): 
+Constraint (核心限制 - e.g., "必须使用蓝色系", "仅支持深色模式"): 
