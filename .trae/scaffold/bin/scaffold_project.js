@@ -17,8 +17,24 @@ const targetDir = path.join(projectsDir, projectName);
 
 // 1. Validate Source Exists
 if (!fs.existsSync(sourceDir)) {
-  console.error(`❌ Source directory not found: ${sourceDir}`);
-  process.exit(1);
+  console.log(`ℹ️  Source directory not found. Creating: ${sourceDir}`);
+  fs.mkdirSync(sourceDir, { recursive: true });
+
+  // Copy Template Files (if template exists)
+  const templateDir = path.resolve(__dirname, '../templates/Object_Name');
+  if (fs.existsSync(templateDir)) {
+    try {
+      fs.cpSync(templateDir, sourceDir, { recursive: true });
+      console.log('   ✅ Initialized Source with Template');
+    } catch (err) {
+      console.error('   ❌ Failed to copy template:', err);
+    }
+  } else {
+    // Create minimal structure if template missing
+    fs.mkdirSync(path.join(sourceDir, 'input'), { recursive: true });
+    fs.writeFileSync(path.join(sourceDir, 'project_state.json'), JSON.stringify({ status: "raw", created: new Date() }, null, 2));
+    console.log('   ✅ Initialized empty Source structure');
+  }
 }
 
 // 2. Ensure projects/ folder exists

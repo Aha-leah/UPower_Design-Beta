@@ -1,4 +1,4 @@
-# UPower Design 2.0 
+# UPower Design 2.0 (Figma Feeder)
 
 **A Multi-Agent AI Team for Automated Design Engineering**
 
@@ -57,6 +57,7 @@ We use a "Slash Command" system to interact with the AI Squad. See `.trae/skills
 *   **`/new [Name]`**: Initialize a new project.
 *   **`/build`**: Execute the next step in the pipeline (Auto-Pilot).
 *   **`/plan`**: Show current status.
+*   **`/hero`**: **[NEW]** Preview Hero Section only (Key Frame First).
 
 ## 2. The Squad Roster
 
@@ -97,10 +98,15 @@ We use a "Slash Command" system to interact with the AI Squad. See `.trae/skills
 
 # Changelog
 
-## v2.0 - UPower Command Center (Current)
+## v2.1 - Lab-Clean & Precision (Current)
+*   **Tone Pivot**: Shifted from "Cyberpunk" to "**Lab-Clean Brutalism**" (Rational, Engineering-focused).
+*   **Key Frame First**: Introduced `/hero` command to validate the visual anchor before full page build.
+*   **SLA & ROI**: Content strategy now focuses on trust and efficiency.
+
+## v2.0 - UPower Command Center
 *   **Unified Interface**: Merged "Concierge" and "Builder" modes into a single command protocol.
 *   **Agent Personas**: Deepened the personalities of Atlas, Alice, Bob, etc.
 *   **Visual Bridge**: Integrated MCP (Model Context Protocol) for Figma and Image Generation.
 
 ## v1.0 - Figma Feeder (Legacy)
-*   Initial release of the "Manifest-Driven" build system.
+*   **Manifest-Driven**: Initial release of the build system.
